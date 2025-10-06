@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build output
+/dist
+/build
+
+# Webpack cache
+/.cache
+/.temp
+
+# IDE и системные файлы
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Jest coverage
+/coverage
