@@ -12,13 +12,13 @@ export default class Popover {
   createPopover() {
     const pop = document.createElement('div');
     pop.className = 'popover';
-    pop.style.display = 'none'; // ✅ скрыт по умолчанию
+    pop.style.display = 'none'; // скрыт по умолчанию
     pop.innerHTML = `
-        <div class="popover-title">${this.title}</div>
-        <div class="popover-text">${this.text}</div>
-    `;
+  <div class="popover-title">${this.title}</div>
+  <div class="popover-text">${this.text}</div>
+`;
     return pop;
-    }
+  }
 
   addEvents() {
     this.trigger.addEventListener('click', (e) => {
